@@ -1,11 +1,4 @@
-terraform {
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "~> 3.69"
-    }
-  }
-}
+provider "google" {}
 
 resource "google_compute_instance" "my_vm" {
   project      = var.project
