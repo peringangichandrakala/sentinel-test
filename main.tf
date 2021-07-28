@@ -1,4 +1,6 @@
-provider "google" {}
+provider "google" {
+  project      = var.project
+}
 
 resource "google_compute_instance" "my_vm" {
   project      = var.project
