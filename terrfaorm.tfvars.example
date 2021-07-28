@@ -1,0 +1,6 @@
+project      = "<projectid>"
+name         = "<vm name>"
+machine_type = "n1-standard-1"
+zone         = "<zone>"
+network      = "<network name>"
+subnetwork   = "<subnetwork selflink>"
