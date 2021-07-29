@@ -4,7 +4,7 @@ terraform {
         organization = "chandrakala"
 
         workspaces {
-            name = "sentinel_test"
+            name = "sentinel-test"
         }
     }
 }
